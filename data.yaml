@@ -1,0 +1,13 @@
+train: C:/Users/Aloof/Desktop/waste detection/train/images
+val: C:/Users/Aloof/Desktop/waste detection/valid/images
+test: C:/Users/Aloof/Desktop/waste detection/test/images
+
+nc: 2
+names: ['biodegradable', 'non_biodegradable']
+
+roboflow:
+  workspace: bappy
+  project: waste-detection-gnszb
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/bappy/waste-detection-gnszb/dataset/1
