@@ -212,3 +212,56 @@ Data Contributors: Individuals and organizations that provided diverse and compr
 -Mark Andrei R. Castillo
 -Julia Daphne Ngan Gatdula
 -Ivahnn B. Garcia
+
+GDRIVE OF DATASET : 
+https://drive.google.com/drive/folders/1d2c9yVMebcoobGyGm_EU63tYd2vLUXA3
+
+
+
+STRUCTURE NEEDED: 
+/your_project_directory
+│
+├── /train
+│   ├── /images
+│   │   ├── img1.jpg
+│   │   ├── img2.png
+│   │   └── ...
+│   └── /labels
+│       ├── img1.txt
+│       ├── img2.txt
+│       └── ...
+│
+├── /valid
+│   ├── /images
+│   │   ├── imgX.jpg
+│   │   └── ...
+│   └── /labels
+│       ├── imgX.txt
+│       └── ...
+│
+├── /test
+│   ├── /images
+│   │   ├── imgY.jpg
+│   │   └── ...
+│   └── /labels
+│       ├── imgY.txt
+│       └── ...
+│
+├── /relabelled_labels
+│   ├── img1.txt
+│   ├── img2.txt
+│   └── ...
+│
+├── /runs
+│   └── /train
+│       └── /biodegradable_detection
+│           └── /weights
+│               ├── best.pt
+│               └── ...
+│
+├── data.yaml
+├── relabel_annotations.py
+├── train_yolov8.py
+└── real_time_detection.py
+
+Make sure if Paths are synchronized Thankyou!
